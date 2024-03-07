@@ -24,12 +24,14 @@ We started by creating a robot using two motors, a motor driver, an ultrasonic s
 </p>
 (SparkFun, Creative Commons Attribution ShareALike 3.0, https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
 
+
 Next, use the adhesive in the SparkFun Kit to attach the motors to the bottom edges of the breadboard and RedBoard baseplate. Add the battery pack to the bottom of the baseplate as well and connect the wheels to the motors for the robot to act as a car. Make sure that the battery pack is installed so that the binder clip will not touch the surface the robot is on when we attach the binder clip to it. Also, make sure the ultrasonic sensor is on the front of the car so that it can measure the distance between the car and other objects accurately. The final set up should look like the following.
 
 <p align="center">
   <img src="https://github.com/hrma240/Lab-8/blob/main/Screenshot%202024-03-06%20at%201.17.25%20PM.png">
 </p>
 (SparkFun, Creative Commons Attribution ShareALike 3.0, https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
+
 
 Do not connect the battery pack to the RedBoard, but connect the RedBoard to the computer running Arduino IDE. Use the following code to make the robot move front, back, right, and left at various input speeds.
 
