@@ -222,8 +222,13 @@ We were unable to complete the third part of the lab due to recent updates to An
 
 **Part One:**
 
+To test our robot with our code, we entered f, b, r, and l into the prompt at a speed of 100 to make sure it went in all directions, and it successfully did so. We then entered various speeds to see how the speed of the wheels changed. The speed of the wheels increased as we increased the speed value we typed in, and it decreased as we decreased the speed value.
 
+Discussion Question: What is the minimum speed that will move the complete car?
+In lab 6 we found the minimum value to move the motors to be around 24, however, in this lab we found the value to move the complete car to be 20. The wheels would not turn if the value was less than 20, and they would move very slowly if the value was just above 20. 
 
 **Part Two:**
+
+
 
 ## Conclusions:
