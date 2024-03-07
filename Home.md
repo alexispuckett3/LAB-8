@@ -80,6 +80,8 @@ void setup()
   Serial.println("Example command: f 50 or s 0");
 }
 ```
+(SparkFun, Creative Commons Attribution ShareALike 3.0, modified by Carlos Jarro for University of Kentucky's BAE305 Lab 6, 2024)
+
 This section of code initializes pin connects from the RedBoard to Arduino IDE for the motors and the ultrasonics sensor. It then sets up the motor control pins as outputs, the ultrasonic sensor trigger pin as output, and the echo pin as input. It then prompts the user to type in values that will then drive the robot in a certain direction at a specified speed. 
 
 ```c++
@@ -190,6 +192,8 @@ void leftMotor(int motorSpeed)                        //function for driving the
   analogWrite(PWMB, abs(motorSpeed));                 //now that the motor direction is set, drive it at the entered speed
 }
 ```
+(SparkFun, Creative Commons Attribution ShareALike 3.0, modified by Carlos Jarro for University of Kentucky's BAE305 Lab 6, 2024)
+
 This loop sends out a signal and reads distance measured by the ultrasonic sensor. If this distance is greater than 20cm, then the user can input a direction and a speed and the robot will go in the prompted direction at that speed. If an object is less than 20cm away from the ultrasonic sensor, then the user will once again input a direction and a speed, but the robot will only go backwards. If another value is typed in, then the robot will not move. We tested our robot by inputting each direction followed by a different speed to see what the movement of the robot would be like. 
 
 **Part Two: Develop the app**
