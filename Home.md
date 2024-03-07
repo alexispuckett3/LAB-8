@@ -8,6 +8,8 @@ March 7, 2024
 ## Project Summary:
 
 
+The goal for this lab is to learn how to create different programs or apps for our phones. In order to do this for this lab specifically, we are creating an app that is a remote controller for a SparkFun robocar that we have been constructing since Lab 5. By using and adding onto this robocar we are hoping to pair it to the created app. In addition, the hope and goal is to be able to move the car forward, right, left, and come to a full stop by using the app that we are creating. In order to create this app the lab requires us to use the App Inventor application which is a project from MIT. This app specifically was created and designed to help people and students create programs and apps in an easier manner.  
+
 ## Design/Methods:
 For this lab we needed the following:
 * A computer running Arduino IDE and Google Chrome: MacBook Air
@@ -232,3 +234,5 @@ In lab 6 we found the minimum value to move the motors to be around 24, however,
 To test our app, we connected the smart phone to the RedBoard and the battery pack to the RedBoard and loaded the app onto the smart phone. We initialized the serial connection by clicking the SetUp button and tested out each direction and the stop button by clicking the rest of the buttons on the smart phone. It went in the correct direction each time we clicked each button, and it stopped when we clicked the stop button.  
 
 ## Conclusions:
+
+After performing this lab we have learned how to develop new programs and apps using the App Inventor software from MIT. This can be helpful and useful to us in many ways especially when it comes to the end of year project. Within the app we learned how to set up the buttons using the Designer tool and connect it to our robocar and our Arduino functions and code. This lab, once again, allowed us to get more familiar with Arduino IDE and working with and modify differing codes. With the codes that we used, we found that the minimum speed for the car to move was, just above 20, as well as giving it the commands to move left, right, forwards and backwards at the speed we desired. We also used the code to  set a speed that the car moves when using our app. 
