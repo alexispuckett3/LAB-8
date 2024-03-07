@@ -229,6 +229,6 @@ In lab 6 we found the minimum value to move the motors to be around 24, however,
 
 **Part Two:**
 
-
+To test our app, we connected the smart phone to the RedBoard and the battery pack to the RedBoard and loaded the app onto the smart phone. We initialized the serial connection by clicking the SetUp button and tested out each direction and the stop button by clicking the rest of the buttons on the smart phone. It went in the correct direction each time we clicked each button, and it stopped when we clicked the stop button.  
 
 ## Conclusions:
