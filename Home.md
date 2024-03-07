@@ -196,7 +196,7 @@ void leftMotor(int motorSpeed)                        //function for driving the
 ```
 (SparkFun, Creative Commons Attribution ShareALike 3.0, modified by Carlos Jarro for University of Kentucky's BAE305 Lab 6, 2024)
 
-This loop sends out a signal and reads distance measured by the ultrasonic sensor. If this distance is greater than 20cm, then the user can input a direction and a speed and the robot will go in the prompted direction at that speed. If an object is less than 20cm away from the ultrasonic sensor, then the user will once again input a direction and a speed, but the robot will only go backwards. If another value is typed in, then the robot will not move. We tested our robot by inputting each direction followed by a different speed to see what the movement of the robot would be like. 
+This loop sends out a signal and reads distance measured by the ultrasonic sensor. If this distance is greater than 20cm, then the user can input a direction and a speed and the robot will go in the prompted direction at that speed. If an object is less than 20cm away from the ultrasonic sensor, then the user will once again input a direction and a speed, but the robot will only go backwards. If another value is typed in, then the robot will not move. We tested our robot by inputting each direction followed by a different speed to see what the movement of the robot would be like. We edited this code from Dr. Jarro because the initial code included the use of two LEDs, and we will not be using those in this lab. 
 
 **Part Two: Develop the app**
 
