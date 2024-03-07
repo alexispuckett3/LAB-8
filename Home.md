@@ -38,11 +38,29 @@ Do not connect the battery pack to the RedBoard, but connect the RedBoard to the
 
 **Part Two: Develop the app**
 
+First, we needed to create an account with the MIT App Inventor 2 Web-based tool. Create a new project and add a button in the Designer side that will be used to initialize the serial connections. Then add four buttons that will control the direction and speed that the robot will move in, along with a stop button to stop the movement of the robot. We named each button according to its function and our home screen looked like the following image.  
 
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-6/blob/main/Screenshot%202024-02-22%20at%2012.48.02%20PM.png">
+</p>
+
+Still in the Designer side, add a serial component from the connectivity section. Then switch to the Blocks side and create the following blocks. 
+
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-6/blob/main/Screenshot%202024-02-22%20at%2012.48.02%20PM.png">
+</p>
+
+In our app, Button1 sets up the connection between the robot and Arduino IDE, and Buttons 2-6 change the direction and speed of the robot. When clicking Buttons 2-6, the command seen in data " " is sent to the RedBoard and the motors move based on this command following what the code says on Arduino IDE. The code used in this part of the lab is the same code as used in Part One. 
+
+Finally, connect the battery pack to power the RedBoard and connect the smart phone to the RedBoard using an adaptor and the regular cable for the RedBoard. Click the build app button on the Web-based tool and click Android App (.apk). A QR code will pop up for the Android to scan and run the MIT AI2 Companion app. Run our app by clicking the StartUp button to begin the serial connection and test out the other buttons to change the speed and direction of the robot. 
+
+We were unable to complete the third part of the lab due to recent updates to Android OS that change how we connect Bluetooth to the robot using an HC-05 Bluetooth UART Module. 
 
 ## Results:
 
 **Part One:**
+
+
 
 **Part Two:**
 
